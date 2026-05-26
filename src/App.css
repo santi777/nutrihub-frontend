@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -13,9 +13,24 @@
   }
 }
 
+/* Add styling for buttons */
+.App-Button {
+  background-color: #61dafb; /* Light blue background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding around text */
+  font-size: 100px; /* Font size */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 20px; /* Make button corners more rounded */
+}
+
+/* Hover effect for buttons */
+.App-Button:hover {
+  background-color: #3d8af7; /* Darker blue background on hover */
+}
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 0vh;
   display: flex;
   flex-direction: column;
   align-items: center;
